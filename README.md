@@ -1,3 +1,9 @@
+#This guide covers setting up a basic Gradle project using the Command Line Interface (CLI). Gradle is a powerful build automation tool used for Java, Kotlin, and other programming languages.
+
+Prerequisites
+Java Development Kit (JDK) installed (version 8 or later).
+
+Gradle installed or use the Gradle Wrapper (recommended).
 # Setup of basic gradle using cli:
 ```agsl
 gradle init --use-defaults --type java-application
