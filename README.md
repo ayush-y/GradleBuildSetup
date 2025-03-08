@@ -46,3 +46,10 @@ The above command will execute your code
 Try to build a jar and run it directly from cli and see if the okhttp code is working or not just like it is working by running directly from intellij
 instead of okhttp try to integrate retrofit library to make the same http call
 
+This guide covers setting up a basic Gradle project using the Command Line Interface (CLI). Gradle is a powerful build automation tool used for Java, Kotlin, and other programming languages.
+
+Prerequisites
+Java Development Kit (JDK) installed (version 8 or later).
+
+Gradle installed or use the Gradle Wrapper (recommended).
+
