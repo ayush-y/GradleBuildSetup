@@ -38,6 +38,21 @@ The above command creates a new jar file in `build/libs` folder
 
 ```agsl
 java -jar build/libs/filename.jar
+
+MyGradleProject/
+├── build.gradle           # Gradle build configuration
+├── settings.gradle        # Gradle settings
+├── gradlew                # Gradle Wrapper script (UNIX)
+├── gradlew.bat            # Gradle Wrapper script (Windows)
+├── gradle/                # Wrapper support files
+├── src/
+    ├── main/
+        ├── java/          # Application code
+            └── App.java   # Sample main class (if you chose 'application')
+    ├── test/
+        ├── java/          # Test code
+            └── AppTest.java # Sample test class
+
 ```
 
 The above command will execute your code
@@ -53,18 +68,5 @@ Java Development Kit (JDK) installed (version 8 or later).
 
 Gradle installed or use the Gradle Wrapper (recommended).
 
-MyGradleProject/
-├── build.gradle           # Gradle build configuration
-├── settings.gradle        # Gradle settings
-├── gradlew                # Gradle Wrapper script (UNIX)
-├── gradlew.bat            # Gradle Wrapper script (Windows)
-├── gradle/                # Wrapper support files
-├── src/
-    ├── main/
-        ├── java/          # Application code
-            └── App.java   # Sample main class (if you chose 'application')
-    ├── test/
-        ├── java/          # Test code
-            └── AppTest.java # Sample test class
 
 
