@@ -56,6 +56,26 @@ MyGradleProject/
             └── AppTest.java # Sample test class
 ````
 
+````agsl
+plugins {
+    id 'java'
+    id 'application'
+}
+
+application {
+    mainClass = 'com.example.App' // Replace with your main class
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.apache.commons:commons-lang3:3.12.0'
+    testImplementation 'junit:junit:4.13.2'
+}
+````
+
 The above command will execute the code
 
 
