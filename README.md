@@ -56,6 +56,19 @@ MyGradleProject/
             └── AppTest.java # Sample test class
 ````
 
+
+
+The above command will execute the code
+
+
+Try to build a jar and run it directly from cli and see if the okhttp code is working or not just like it is working by running directly from intellij
+instead of okhttp try to integrate retrofit library to make the same http call
+
+Prerequisites
+Java Development Kit (JDK) installed.
+
+Gradle installed or use the Gradle Wrapper (recommended).
+
 ````agsl
 plugins {
     id 'java'
@@ -75,17 +88,4 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
 }
 ````
-
-The above command will execute the code
-
-
-Try to build a jar and run it directly from cli and see if the okhttp code is working or not just like it is working by running directly from intellij
-instead of okhttp try to integrate retrofit library to make the same http call
-
-Prerequisites
-Java Development Kit (JDK) installed.
-
-Gradle installed or use the Gradle Wrapper (recommended).
-
-
 
